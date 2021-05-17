@@ -6,5 +6,5 @@ services:
   
 before_install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker pull admiring_elgamal
-  - docker run  admiring_elgamal
+  - docker pull admiring_elgamal: latest
+  - docker run  16484350a2a8
