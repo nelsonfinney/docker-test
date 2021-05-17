@@ -3,9 +3,6 @@ language: generic
 
 services:
   - docker
-
-before_install:
-  - docker build -t 7708599207/docker-test .
-
+  
 script:
   - docker run -e CI=true 16484350a2a8
